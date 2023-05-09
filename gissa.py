@@ -18,10 +18,10 @@ while i< 4:
     #print("slumptalet=" + str(slumtal))
     i = i + 1
 
-if slumptal == int (gissatalet):
-    print("grattis du vann en anka!")
-    vinst = True
-    break
+    if slumptal == int (gissatalet):
+        print("grattis du vann en anka!")
+        vinst = True
+        break
 
-if vinst==False
-    print("tyvärr, du vann ingen anka denna gång!")
+if vinst==False:
+    print("\ntyvärr, du vann ingen anka denna gång!")
